@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://dc5uc0638ohgi"]
+
+[ext_resource type="Script" uid="uid://clwotk4wioj8a" path="res://GameScene.gd" id="1_eqhe0"]
+
+[node name="GameScene" type="Node2D" unique_id=1048558700]
+script = ExtResource("1_eqhe0")
+
+[node name="Label" type="Label" parent="." unique_id=755413407]
+offset_left = 13.0
+offset_top = 10.0
+offset_right = 116.0
+offset_bottom = 59.0
+text = "Tempo: 30s
+"
+
+[node name="ItemA" type="Button" parent="." unique_id=71398386]
+offset_left = 45.0
+offset_top = 369.0
+offset_right = 125.0
+offset_bottom = 439.0
+text = "A
+
+"
+
+[node name="ItemB" type="Button" parent="." unique_id=1078684476]
+offset_left = 182.0
+offset_top = 376.0
+offset_right = 250.0
+offset_bottom = 428.0
+text = "B"
+
+[node name="ItemC" type="Button" parent="." unique_id=1916544522]
+offset_left = 293.0
+offset_top = 370.0
+offset_right = 362.0
+offset_bottom = 427.0
+text = "C"
+
+[node name="Timer" type="Timer" parent="." unique_id=1370000002]
+autostart = true
